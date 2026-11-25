@@ -14,4 +14,6 @@ export const products: Product[] = [
   { id: 4, name: "Bình giữ nhiệt 500ml", price: 185000, image: "/images/binh-nuoc.jpg", category: "Gia dụng", stock: 20 },
   { id: 5, name: "Balo laptop 15 inch", price: 550000, image: "/images/balo.jpg", category: "Phụ kiện", stock: 8 },
   { id: 6, name: "Chuột không dây", price: 245000, image: "/images/chuot.jpg", category: "Điện tử", stock: 15 },
+  { id: 7, name: "Áo khoác kaki", price: 380000, image: "/images/ao-khoac-kaki.jpg", category: "Thời trang", stock: 10 },
+  { id: 8, name: "Giày sneaker", price: 520000, image: "/images/giay-sneaker.jpg", category: "Thời trang", stock: 7 },
 ];
