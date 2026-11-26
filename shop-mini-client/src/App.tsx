@@ -10,6 +10,7 @@ import "./App.css";
 function App() {
   const cheapProducts = filterProducts(products, { maxPrice: 300000, sort: "asc" });
   const electronics = filterProducts(products, { category: "Điện tử" });
+  const lowStockProducts = products.filter((p) => p.stock >= 1 && p.stock <= 5);
 
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
         <ProductList title="Sản phẩm nổi bật" items={products} />
         <ProductList title="Giá dưới 300.000 đ" items={cheapProducts} />
         <ProductList title="Đồ điện tử" items={electronics} />
+        <ProductList title="Sản phẩm sắp hết hàng" items={lowStockProducts} />
       </main>
       <Footer />
     </>

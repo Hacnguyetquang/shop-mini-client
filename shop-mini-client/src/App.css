@@ -27,6 +27,7 @@ a {
   color: #fff;
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 
 .header-inner {
@@ -185,34 +186,19 @@ main {
   font-size: 14px;
   font-weight: 500;
 }
-/* ---------- Trạng thái hết hàng ----------
-.product-image-wrap {
+/* ---------- Lab 2 ---------- */
+main .container + .container {
+  margin-top: 48px;
+}
+
+.product-card {
   position: relative;
 }
 
-.out-of-stock-badge {
+.badge-out {
   position: absolute;
   top: 10px;
   left: 10px;
-  background: #dc2626;
-  color: #fff;
-  font-size: 12px;
-  font-weight: 600;
-  padding: 4px 10px;
-  border-radius: 6px;
-}
-
-.btn:disabled {
-  background: #9ca3af;
-  cursor: not-allowed;
-} */
-/* ---------- Lab 2 ---------- */
-main section + section {
-  margin-top: 40px;
-}
-
-.badge-out {
-  align-self: flex-start;
   padding: 2px 10px;
   border-radius: 999px;
   background: #fde2e1;
